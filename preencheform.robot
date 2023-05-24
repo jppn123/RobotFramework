@@ -11,10 +11,9 @@ ${buttonxpath}    //*[@name="submit"]
 *** Keywords ***
 abrir site
     Open Browser    https://itera-qa.azurewebsites.net/home/automation    firefox
-
 fechar site
     Close Browser
-
+    
 escrever no formulario
     Input Text    ${namexpath}    jp
     Input Text    ${phonexpath}   1234567

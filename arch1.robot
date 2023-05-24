@@ -1,5 +1,5 @@
 *** Settings ***
-Library  SeleniumLibrary
+Library   SeleniumLibrary
 
 *** Keywords ***
 Abrir Site 1
@@ -11,7 +11,7 @@ Abrir Site 1
 #     Title Should Be    Welcome to Python.org
 Fechar Site 
     Close Browser
-
+    
 *** Test Cases ***
 Cenário 1: Acessando o site do Robot
     Abrir Site 1
