@@ -1,7 +1,7 @@
-** Settings **
+*** Settings ***
 Library  SeleniumLibrary
 
-** Keywords **
+*** Keywords ***
 Abrir Site 1
     Open Browser  https://robotframework.org/  firefox
     Title Should Be    Robot Framework
@@ -12,7 +12,7 @@ Abrir Site 1
 Fechar Site 
     Close Browser
 
-** Test Cases **
+*** Test Cases ***
 Cenário 1: Acessando o site do Robot
     Abrir Site 1
     Fechar Site
